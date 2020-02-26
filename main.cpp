@@ -401,10 +401,18 @@ extern "C" void* ThreadStats(void*) {
 }
 
 static const string mainnet_seeds[] = {"sn1.merebel.org","sn2.merebel.org","sn3.merebel.org",
-					"sn4.merebel.org","sn5.merebel.org","86.105.49.151",
-					"94.156.174.204","94.156.174.205","94.156.174.206",
-					"94.156.174.71","176.9.206.187","5.135.125.73","51.38.122.197",
-					"51.68.187.190","51.89.14.216","51.89.14.217","51.89.38.190","94.156.174.139","94.156.174.65",""};
+					"sn4.merebel.org","sn5.merebel.org","54.36.108.161",
+          "51.89.81.159",
+          "51.89.38.190",
+          "51.89.14.217",
+          "51.89.14.216",
+          "51.75.84.152 ",
+          "51.68.187.190",
+          "51.38.122.197",
+          "51.89.85.34",
+          "51.89.73.22",
+          "51.89.68.85",
+          "51.89.18.72",""};
 static const string testnet_seeds[] = {"testnet.seed.minnodes.io",""};
 static const string *seeds = mainnet_seeds;
 
